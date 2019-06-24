@@ -7,7 +7,7 @@ Please click on the executable for details
 
 ![image](DesigningFilters.png)
 
-![image](Microwave Filters_ADS.png)
+![image](Microwave_Filters_ADS.png)
 
 ![image](WirelesssCommunications.png)
 
