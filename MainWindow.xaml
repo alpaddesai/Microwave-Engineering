@@ -1,0 +1,57 @@
+﻿<Window x:Class="Microwave_Engineering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Microwave_Engineering"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="645" Width="1296" MaxWidth="1296" MaxHeight="665">
+    <Grid Margin="0,0,2,11">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="367*"/>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="73,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="WIRELESS SYSTEM ARCHITECTURE" HorizontalAlignment="Left" Margin="123,10,0,0" VerticalAlignment="Top" Height="24" Width="196" Grid.Column="1"/>
+        <RichTextBox HorizontalAlignment="Left" Height="484" Margin="613,39,0,0" VerticalAlignment="Top" Width="655" Grid.ColumnSpan="2" TextChanged="RichTextBox_TextChanged_1" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Wireless systems use radio frequency bands from several Khz to hundreds of Ghz to provide communication services. The allocation and control of the radio spectrum in each country is handled by the Federal communications commission (FCC) in the US and internationally it is coordinated by the international telecommunications union (ITU). Most commercial spectrum is licensed, and providers purchase a license to gain the exclusive rights for utilizing a portion of the spectrum. The cellular phone systems operate over licensed spectrum around 900Mhz to 2Ghz, WiFi and Bluetooth application use the bands around 2.4 to 5.5Ghz. Unlicensed bands include industrial, scientific and medical bands (ISM) and National Information Infrastructure.   Multiple access schemes include TDMA, CDMA and FDMA.  With Frequency division multiple access (FDMA) each user channel corresponds to a dedicated frequency band, this enables a multiple access scheme on the spectrum resource. Almost all wirelss systems utilize the FDMA scheme.    The time division multiple access (TDMA) scheme includes each user channel o correspond to a sequence of cyclically repeated time slots over a specific frequency band. 2nd generation cellular systems utilize TDMA.  With the code division multiple access (CDMA) scheme each user channel transmits over the frequency band simultaneously while using different spreading codes. The receiver utilizes these orthogonal spreading codes to identify the user transmission.  Random access schemes can be substituted for multiple access schemes in situations where the transmission demand is in large bursts which can be the case for most data applications. ALOHA is one such random access scheme. CSMA ( Carrier sensing multiple access) is also a random access scheme."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Wireless channel transmission is divided in two types based on direction of information flow, one way communication e.g AM/FM radio and TV broadcasting services and two way communication e.g telephone and video conference services.  A perfect example is a of two way communication (half duplex and full duplex) is the following:  An uplink channel utilizes the frequency band of 824 to 849Mhz for the uplink transmission from mobile to cellular base station while a downlink channel from cellular base to mobile utilizes the frequency band of 869 to 894Mhz.  The difference of 45Mhz is the duplexing distance. This is called the frequency division duplexing (FDD)."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="With the TDD scheme both uplink and downlink channel utilize the same frequency band and access it in and at different slots.  These slots are periodically repeated for uplink and downlink transmissions. Short guard slots are inserted between uplink and downlink slots to account for prop delay and transceiver reconfiguration. TDD implements a full duplex experience since two terminals can send information simultaneously. Wifi systems, Bluetooth systems and selected cellular systems utilize the TDD scheme.   "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="The digital wireless transmission system consists of information source, source encoder, channel encoder, digital modulator , RF ckt, antenna, wireless channel, RF ckt, digital demodulator, channel decoder, source decoder and information sink."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="Basic_Building_Blocks" Content="Wireless Communication Systems" HorizontalAlignment="Left" Margin="104,528,0,0" VerticalAlignment="Top" Width="191" Click="Basic_Building_Blocks_Click" Grid.Column="1"/>
+        <Label Content="Reference RF System Architecture and Design  by John W. M . Rogers, Calvin Plett and Ian Marsland" HorizontalAlignment="Left" Margin="679,568,0,0" VerticalAlignment="Top" Height="25" Width="534" Grid.ColumnSpan="2"/>
+        <Label Content="Reference Introduction to Digital Wireless Communications, Hong Chuan Yang" HorizontalAlignment="Left" Margin="713,542,0,0" VerticalAlignment="Top" Width="434" Grid.ColumnSpan="2"/>
+        <Image Margin="0,0,141,406" Source="Image26.png" Stretch="Fill"/>
+        <RichTextBox HorizontalAlignment="Left" Height="171" Margin="10,214,0,0" VerticalAlignment="Top" Width="583" TextChanged="RichTextBox_TextChanged_2" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Analog Front End"/>
+                    <Run Text=": Most RF designs are based on CMOS technologies or GasAs transistors for the Ghz band. Some wireless transceivers are implemented in SOC. The System on package translates to a combination of monolithic microwave ICs (MMIC) with LTCC multilayer passive components that are embedded in a LTCC susbstrate. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Path:  "/>
+                    <Run Text=" "/>
+                    <Run Text="On the transmit path, the Intermediate signal is transformed to the RF signal and then amplified by the power amplifier, there may be more than one IF signal stage , on the receive path the received RF signal first goes through the bandpass fitler and then the low noise amplifier before it is converted the IF signal."/>
+                    <Run Text=" "/>
+                    <Run FontWeight="Bold" Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text="Baluns may be required in many microwave components such as balanced mixers, push pull amplifiers, multiplier and phase shifters to improve the performance and reduce the cost of RF module. Oscillators  are required for frequency conversion and PLLS are used for generating stable oscillators.   "/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image Margin="10,387,141,0" Source="Image27.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

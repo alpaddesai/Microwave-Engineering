@@ -1,0 +1,23 @@
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\bin\Debug\Microwave Engineering.exe.config
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\bin\Debug\Microwave Engineering.exe
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\bin\Debug\Microwave Engineering.pdb
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\MainWindow.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\App.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering_MarkupCompile.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering_MarkupCompile.lref
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\MainWindow.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering.g.resources
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave_Engineering.Properties.Resources.resources
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering.csproj.GenerateResource.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering.csproj.CoreCompileInputs.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering.exe
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering.pdb
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Filters.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Filters.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\MicrowaveFilters.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\MicrowaveFilters.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Wireless Communication Systems.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Wireless Communication Systems.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\DesigningBuildingBlocks.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\DesigningBuildingBlocks.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Debug\Microwave Engineering.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Microwave_Engineering.MicrowaveFilters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Microwave_Engineering"
+        mc:Ignorable="d"
+        Title="MicrowaveFilters" Height="628.086" Width="1133.192">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" MaxWidth="1125" MaxHeight="597">
+        <Image Margin="0,0,690,322" Source="Image20.png" Stretch="Fill"/>
+        <Image Margin="440,10,362,322" Source="Image21.png" Stretch="Fill"/>
+        <Image Margin="768,0,-4,322" Source="Image22.png" Stretch="Fill"/>
+        <Image Margin="0,280,685,70" Source="Image23.png" Stretch="Fill"/>
+        <Image Margin="440,280,362,61" Source="Image24.png" Stretch="Fill"/>
+        <Image Margin="768,280,-4,61" Source="Image25.png" Stretch="Fill"/>
+    </Grid>
+</Window>

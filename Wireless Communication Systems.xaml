@@ -1,0 +1,118 @@
+﻿<Window x:Class="Microwave_Engineering.Wireless_Communication_Systems"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Microwave_Engineering"
+        mc:Ignorable="d"
+        Title="Wireless_Communication_Systems" Height="727" Width="1168" MaxWidth="1168" MaxHeight="727">
+    <Grid Margin="0,0,2,8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="539*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="892*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Reference : Wireless Communication Systems - From RF SubSystems to 4G Enabling Technologies" HorizontalAlignment="Left" Margin="10,590,0,0" VerticalAlignment="Top" Height="26" Width="535" Grid.Row="1"/>
+        <RichTextBox HorizontalAlignment="Left" Height="597" Margin="21,25,0,0" VerticalAlignment="Top" Width="519" TextChanged="RichTextBox_TextChanged" Grid.RowSpan="2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="RF System Analysis:  "/>
+                    <Run Text=" "/>
+                    <Run Text="A spectral density or spectrum of a random signal is a measure of how much power a signal carriers in a unit BW centered around a frequency f.  For analog RF systems noise is additive for cascaded analog systems hence each block must be allocated a gain and noise figure to reduce the noise on the whole subsystem. Common noise types are thermal (johnson or white is independent of f ) noise, shot noise (guassian white process) and flicker noise  . For the data acquisition system the major noise is the quantization noise. GSM and 802.11g require an overall noise figure to be around 10dB and WideMedia requires a noise figure of 6.6dB and for 3G standards a noise figure of 5dB is recommended."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Link budget analysis:  "/>
+                    <Run Text=" "/>
+                    <Run Text="For link budget analysis the carrier to noise ratio (CNR) defines the ratio of the signal power to the noise power over a channel."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="RF Receiver"/>
+                    <Run Text=": Requirements of an RF receiver in addition to gain and  noise figure (amount of noise added by the device defined as input SNR to output SNR)  includes a good sensitivity parameter.  Now receiver sensitivity = noise figure + SNR + margin. The GSM standard requirement for a reception dynamic range is from -102 dbm to -15 dbm with a SNR value of +9dB, IEEE 802.111g requires a reception range from -92dbm to -20 dbm, for WCDMA it's -117 to -25 DBm .   A high sensitivity requires a high gain around 100 to 120dB to resotre the received signal to its original baseband level. The total gain is distributed over the RF, IF and baseband stages in order to achieve stability. Other parameters include wide dynamic range, good adjacent channel selectivity, good blocking ability, a desirable intermodulation rejection ability, a good isolation"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="RF transmitter "/>
+                    <Run Text=" "/>
+                    <Run Text=":Requirements of an RF transmitter include having a tight occupied bandwidth, low out of band emissions, low spurious emissions and the ability to inhibit intermodulation.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Attenuator is a device that reduces the amplitude or power of a signal without distorting its waveform It is utilized for gain control in phased array antennas. Mixers are utilized in modulators, demodulators, frequency translators and PLLs. They perform frequency translation by multiplying two input signals. A simple example includes an RF input with a square wave translates to an switch with an RF input, hence RF input when switch is on else off. Simple implementation includes a transistor, this is an example of a passive mixer. Active mixers provide gain which is the intermediate frequency power delivered to the load / input RF power. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Modulation and Demodulation: "/>
+                    <Run Text="Modulation is a technique utilized to convert the signal to a higher frequency band prior to transmission, since low frequency EM waves are impractical for portable communication devices.  Demodulation at the receiver is utilized to convert the signal back to the baseband.  Also by using a higher frequency band to transmit signals, a spectrum sharing technique known as frequency division multiple access FDMA is utilized where by many users are able to communicate simultaneously with each user using "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" a different frequency band. Digital modulation techniques include amplitude shift keying (ASK), frequency shift keying (FSK) and phase shift keying (PSK).  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Frequency synthesis:  "/>
+                    <Run Text="Frequency synthesizers are a combination of three methods, PLLs with programmable divider or direct digital synthesizer combined with a mixer to produce the desired frequency.  A PLL is a closed loop feedback control system that adjusts the frequency of a voltage controlled oscillator until it matches the reference (input) signal in both frequencies and phase.   A phase detector compares the phase of the reference and the output of the oscillator and adjusts the charge pump to change the control voltage that is connected to the VCO through a low pass filter. A frequency divider can be utilized in the feedback path."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Automatic gain control : The AGC processes information in the digital domain and send control information to the analog component, the analog component adjusts it power level prior to A/D conversion. The sum of the fixed gains from the different stages can be as high as 100dB, the AGC circuit compensates as a variable gain amplifier (VGA) or attenuates as a variable voltage controller attenuator. The output signal is feedback to the control of the AGC ckt after it is rectified, amplified (with a dc reference) and sent through a low pass filter. The output signal is also sent to the ADC."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="RF AND MICROWAVE SUBSYSTEMS AND BASIC BUILDING BLOCKS" HorizontalAlignment="Left" Margin="128,-1,0,0" VerticalAlignment="Top" Width="356"/>
+        <RichTextBox HorizontalAlignment="Left" Height="374" Margin="550,25,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="592" TextChanged="RichTextBox_TextChanged_1">
+            <FlowDocument>
+                <Paragraph>
+                    <Run NumberSubstitution.CultureSource="User" FontWeight="Bold" Text="Maximally Flat Low Pass Filter  (Butterworth or binomial response) : "/>
+                    <LineBreak NumberSubstitution.CultureSource="User"/>
+                    <Run NumberSubstitution.CultureSource="User" Text="This provides the flattest possible passband response for a given filter complexity.    The power loss ratio is a function of power((w/wc),2N) and insertion loss is 10logPLR in dB.  So at 3Ghz, the insertion loss would be 17dB.  The actual frequency is displayed."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run NumberSubstitution.CultureSource="User" Text="Cutoff frequency is 2Ghz, matching impedance of 50 ohm on I/O ports, slope should be such that there is an insertion loss at 3Ghz.   For w/wc - 1 = 0.5, hence the order of the filter is 5.  The element value table is given for series resistance of 1 ohm and Wc = 1 rad/sec is given by  g1 = 0.618, g2 = 1.618, g3=2, 4=1.618, g5=0.618."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run NumberSubstitution.CultureSource="User" Text="So scaled value of C' = 0.618/((50)(2*3.14)*2) = 0.984pF, L' = 50*1.618/2*3.14*2 = 6.441nH,so forth. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run NumberSubstitution.CultureSource="User" FontWeight="Bold" Text="Equal Ripple Low Pass Filter  (Chebyshev response) :"/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run NumberSubstitution.CultureSource="User" Text="The power loss ratio is defined as k*k/4 * power((2w/wc),2N), the insertion loss is power(2,2N)/4 greater than the binomial response for any given frequency where w&gt;wc.  This response has a sharper cutoff. The pass responses will have ripples of amplitude 1+ksq where k =1 for a -3db point."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run NumberSubstitution.CultureSource="User" FontWeight="Bold" Text="Linear Phase : "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run NumberSubstitution.CultureSource="User" Text="It provides a linear phase response in the passband to avoid signal distortion."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run NumberSubstitution.CultureSource="User" FontWeight="Bold" Text="Pass Band Filter"/>
+                    <Run Text=" "/>
+                    <Run NumberSubstitution.CultureSource="User" Text=": Utilize the same elements, where g1=L1, g2=C2, g3=L3 and g4=Rl. The center frequency is Wo and delta is the w2-w1/w0 .  Where w2 and w1 are the edges of the passband where a bandpass response can be obtained. For 1Ghz center frequency and a 10% BW, w2=w1+0.01 Ghz.  L' = L1Ro / Wo(delta) and C' = delta/WoL1Ro"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="DESIGNING FILTERS" HorizontalAlignment="Left" Margin="746,-1,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content=" Reference: Microwave Engineering, David Pozar" HorizontalAlignment="Left" Margin="687,334,0,0" Grid.Row="1" VerticalAlignment="Top" Width="269" Height="27"/>
+        <Button x:Name="Designing_Filters" Content="Designing Filters" HorizontalAlignment="Left" Margin="550,339,0,0" Grid.Row="1" VerticalAlignment="Top" Width="99" Click="Designing_Filters_Click"/>
+        <Button x:Name="Microwave_Filters" Content="Microwave Filters" HorizontalAlignment="Left" Margin="1037,339,0,0" Grid.Row="1" VerticalAlignment="Top" Width="105" Click="Microwave_Filters_Click"/>
+        <RichTextBox HorizontalAlignment="Left" Height="260" Margin="550,366,0,0" Grid.Row="1" VerticalAlignment="Top" Width="598">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Microwave filters "/>
+                    <Run Text=": The lumped element filter works well at low frequencies, however at higher RF frequencies they are difficult to implement due to vias and pads.  Distributed elements such as open circuited or short circuited transmission line stubs are utilized instead to emulate the effects of ideal lumped elements. Richards transformation can be utilized to convert lumped elements to transmission line sections.  An example is shown , please click the button below for details.   A stepped impedance low pass filter is shown.    "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Power dividers and Directional couplers: "/>
+                    <Run Text=" "/>
+                    <Run Text="When two unshielded transmission lines are in close proximity to each other , power can be coupled from one line to another due to the interaction of the electromagnetic fields. One example is the lange coupler , where several lines are parallel to each other  so that fringing fields at both edges contributes to coupling. For a T junction power divider, the if the source impedance is 50 ohm and the Z1 = 150 ohm and Z2 = 75 ohm, then this becomes a 2:1 ratio power divider since the reflection coefficient1 is 30-150/30+150 =-0.66 and reflection coefficient2 is 37.5-75 / 37.5+75 = -0.33. The Wilkinson power divider is a lossy three port network that is made with all ports matched.  A equal split involves tapering the two sections to sqr(2) Z0 for 1/4 wavelength distance and then matching to impedance Zo with a shunt resistor value 100 ohm between the tapered section.  "/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="Software Design Tools are available on Analog Devices amongst other major IC design companies" HorizontalAlignment="Left" Margin="10,565,0,0" VerticalAlignment="Top" Height="26" Width="535" Grid.Row="1"/>
+
+    </Grid>
+</Window>

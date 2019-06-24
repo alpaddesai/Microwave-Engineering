@@ -1,0 +1,23 @@
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\bin\Release\Microwave Engineering.exe.config
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\bin\Release\Microwave Engineering.exe
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\bin\Release\Microwave Engineering.pdb
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering.csprojAssemblyReference.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\DesigningBuildingBlocks.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Filters.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\MainWindow.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\MicrowaveFilters.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Wireless Communication Systems.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\App.g.cs
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering_MarkupCompile.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering_MarkupCompile.lref
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\DesigningBuildingBlocks.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Filters.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\MainWindow.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\MicrowaveFilters.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Wireless Communication Systems.baml
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering.g.resources
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave_Engineering.Properties.Resources.resources
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering.csproj.GenerateResource.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering.csproj.CoreCompileInputs.cache
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering.exe
+C:\Users\ADG\source\repos\Microwave Engineering\Microwave Engineering\obj\Release\Microwave Engineering.pdb

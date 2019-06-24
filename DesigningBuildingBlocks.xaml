@@ -1,0 +1,20 @@
+﻿<Window x:Class="Microwave_Engineering.DesigningBuildingBlocks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Microwave_Engineering"
+        mc:Ignorable="d"
+        Title="DesigningBuildingBlocks" Height="818.814" Width="1110.825">
+    <Grid Margin="0,0,49,44">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="265*"/>
+            <ColumnDefinition Width="131*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="409*"/>
+        </Grid.RowDefinitions>
+
+    </Grid>
+</Window>
