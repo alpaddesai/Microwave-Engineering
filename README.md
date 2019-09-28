@@ -10,5 +10,5 @@ The project provides details on wireless communications systems and the basic bu
 
 ![image](WirelesssCommunications.png)
 
-![image](certificate.png)
+![image](RahsoftADScertificate.png)
 
