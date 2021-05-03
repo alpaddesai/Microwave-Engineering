@@ -14,10 +14,6 @@ The project provides details on wireless communications systems and the basic bu
 ![image](Microwave_Filters_ADS.png)
 ![image](MicrowaveFilterDesign.jpg)
 
-# Antenna Design
-![image](AntennaPatch.jpg)
-![image](ModifiedAntennaPatch.jpg)
-
 # Wireless Communication
 ![image](WirelesssCommunications.png)
 
