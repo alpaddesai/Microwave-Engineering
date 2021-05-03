@@ -12,7 +12,7 @@ The project provides details on wireless communications systems and the basic bu
 ![image](DesigningFilters.png)
 
 ![image](Microwave_Filters_ADS.png)
-![image](MicrowaveFilterDesign)
+![image](MicrowaveFilterDesign.png)
 
 ## Antenna Design
 ![image](AntennaPatch.jpg)
