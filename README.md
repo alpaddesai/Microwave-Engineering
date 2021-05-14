@@ -20,7 +20,7 @@ ADS
 ![image](WirelesssCommunications.png)
 
 ## Mixer
-![image](Mixer.jpg)
+![image](Mixer1.jpg)
 UWave office
 
 # Rahsoft RF certifications
