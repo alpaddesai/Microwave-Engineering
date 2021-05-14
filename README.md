@@ -7,11 +7,11 @@ The project provides details on wireless communications systems and the basic bu
 
 # Impedance matching and S Parameters
 ![image](Sparameter.jpg)
-###Ansys 
+Ansys 
 
 # Microwave Filters
 ![image](DesigningFilters.png)
-###ADS
+ADS
 
 ![image](Microwave_Filters_ADS.png)
 ![image](MicrowaveFilterDesign.jpg)
@@ -20,8 +20,8 @@ The project provides details on wireless communications systems and the basic bu
 ![image](WirelesssCommunications.png)
 
 ## Mixer
-![image](image2.png)
-###UWave office
+![image](Mixer.png)
+UWave office
 
 # Rahsoft RF certifications
 ![image](Testing.png)
