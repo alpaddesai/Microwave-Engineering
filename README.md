@@ -17,6 +17,9 @@ The project provides details on wireless communications systems and the basic bu
 # Wireless Communication
 ![image](WirelesssCommunications.png)
 
+## Mixer
+![image](image2.png)
+
 # Rahsoft RF certifications
 ![image](Testing.png)
 
